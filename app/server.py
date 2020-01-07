@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://colab.research.google.com/drive/1juQ0Gq-eOohhTY0xc7QJeLCguca8byUN'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1juQ0Gq-eOohhTY0xc7QJeLCguca8byUN'
 export_file_name = 'export3.pkl'
 
 classes = ['german_shepard', 'belgian_shepard', 'australian_shepard']
